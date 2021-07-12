@@ -23,7 +23,7 @@ spec:
         app.openshift.io/runtime: bookstore
         app.openshift.io/runtime-version: latest
     spec:
-      containerConcurrency: 0
+      containerConcurrency: 1
       containers:
         - image: quay.io/jpacker/hugo-nginx:latest
           imagePullPolicy: Always
